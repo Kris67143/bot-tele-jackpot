@@ -1,2 +1,1 @@
 requests
-git+https://github.com/kris67143/repo.git
