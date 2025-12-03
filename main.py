@@ -111,7 +111,7 @@ def monitor():
                     + "👉 <a href='https://t.me/BOT88_CSKH247'>TELEGRAM</a>\n"
                     + "▶️ <a href='https://www.youtube.com/@bot88official-2'>YOUTUBE</a>\n"
                     + "📲 <a href='https://www.facebook.com/BOT88vietnam'>FB FANPAGE</a>\n"
-                    + "#bongda  #football #bot88  #nohu #jackpot #slot #taixiu #baucua"
+                    + "#bot88 #bongda  #football #nohu #jackpot #slot #taixiu #baucua"
                 )
                 
                 # tìm vị trí chữ "Đăng Ký Nhận Ngay" để in đậm
