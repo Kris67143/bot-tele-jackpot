@@ -5,7 +5,7 @@ API_URL = "https://api.bot88.com/api/v1/slot/jackpot"
 BRAND_CODE = "bc5"
 
 TELEGRAM_TOKEN = "8397765740:AAHp2ZTsWifRo9jUguH2qv9EB9rnnoA0uW8"
-CHAT_ID = "-1003358962685"
+CHAT_ID = "-1002313506455"
 
 last_status = {}
 last_post_time = datetime.min  # lưu thời điểm gửi gần nhất
@@ -94,7 +94,7 @@ def monitor():
                         lines.append(f"🦀 Bầu Cua: {value:,} đ - Phát Tài")
 
                 # tạo tin nhắn
-            if datetime.now() - last_post_time >= timedelta(seconds=20):
+            if datetime.now() - last_post_time >= timedelta(hours=4):
                 delete_last_message()
                 message = (
                     f"🎰 Hũ <b>{Total_Amount}</b> sắp nổ 💣🌈\n\n"
